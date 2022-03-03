@@ -1,0 +1,312 @@
+html,body {
+    height:100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+.favouriteRecipe {
+    background-color: rgb(243, 235, 235);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.recipe1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(228, 216, 216);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.recipe1:hover {
+    border: 2px solid #125fca;
+    
+}
+
+.price {
+    color: #fb6100;
+}
+
+.sterneBewertung {
+    margin-left: 70px;
+}
+
+.companyName {
+    margin-left: 80px;
+}
+
+#recipe {
+    margin-left: 80px;
+    width: 80%;
+}
+
+.content {
+    display: flex;
+}
+
+.shopping {
+    position: sticky;
+    right: 0%;
+    bottom: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(59, 59, 68, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 0.1px solid lightgrey;
+}
+
+.shoppingCart {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1px solid lightgrey;
+    font-family: sans-serif;
+}
+
+.shoppingCart h2 {
+    font-size: 20px;
+}
+
+.shoppingBox {
+    min-height: 1100px;
+}
+
+.shoppingCart2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.shoppingCart2 img {
+    height: 4vh;
+}
+
+.shoppingCart2 p {
+    color: grey;
+    font-size: 15px;
+}
+
+.shoppingCart2 h2 {
+    font-size: 20px;
+}
+
+#shopping {
+    overflow-y:auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 80vw;
+}
+
+.right {
+    width: 20vw;
+}
+
+.head {
+    background-color: #fb6100;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    height: 80px;
+}
+
+.head img {
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -72px;
+}
+
+.restaurantImg {
+    height: 20vh;
+    border-radius: 100%;
+    border: 1px solid rgb(218, 204, 204);
+}
+
+.mainImage {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.mainContainer {
+    width: 80vw;
+}
+
+.evaluation {
+    padding-left: 20px;
+}
+
+.recipeTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addBtn {
+    height: 25px;
+    width: 25px;
+}
+.shoppingCart3-top-left {
+    display: flex;
+    align-items: center;
+}
+
+.shoppingCart3-top-right {
+    display: flex;
+    align-items: center;
+}
+
+.shoppingCart3-top-right span{
+    display: flex;
+    align-items: center;
+}
+
+.shoppingCart3-top-middle{
+    flex: 1;
+}
+
+.shoppingCart3-top {
+    display: flex;
+    color: #0a3847;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.shoppingCart3-top p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shoppingCart3-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.shoppingCart3-bottom p{
+    margin-right: 20px;
+    margin-left: 40px;
+    color: grey;
+}
+
+
+
+.seperator{
+    margin-top: 10px;
+    height: 1px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: lightgrey;
+}
+
+.basketBtn {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bill {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sum {
+    padding: 10px;
+}
+
+.deliveryCost {
+    padding: 10px;
+}
+
+.endBill {
+    padding: 10px;
+}
+
+.endBtn {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    background-color: #125fca;
+    font-size: 20px;
+    border: none;
+}
+
+.billBtn {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+#note {
+    height: 100px;
+    width: 250px;
+    border: solid 3px #125fca;
+    margin-left: 40px;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .evaluation {
+        padding-left: 10px;
+        position: relative;
+        top: -55px;
+    }
+
+    .shopping {
+        position: unset;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mainContainer {
+        width: 100%;
+    }
+
+    .recipe {
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 400px) {
+    .head {
+        background-color: #fb6100;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 17px;
+        height: 133px;
+    }
+}
